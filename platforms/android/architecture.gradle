@@ -5,7 +5,7 @@ def getArchitecturePreference() {
   
   xml.preference.each { it ->
     def name = it.attribute("name")
-    if(name && name.toLowerCase == 'buildarchitecture')
+    if(name && name.toLowerCase() == 'buildarchitecture')
       if(it.attribute("value") != null)
         architecture = it.attribute("value")
       else
