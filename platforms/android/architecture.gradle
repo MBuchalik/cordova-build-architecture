@@ -1,7 +1,7 @@
 def getArchitecturePreference() {
   def architecture = 'arm';
   def file = file("res/xml/config.xml").getText()
-  def xml = new XmlParser(false, false).parseText(xml)
+  def xml = new XmlParser(false, false).parseText(file)
   
   xml.preference.each { it ->
     if(it.attribute("name").toLowerCase == 'buildarchitecture')
