@@ -4,7 +4,8 @@ def getArchitecturePreference() {
   def xml = new XmlParser(false, false).parseText(file)
   
   xml.preference.each { it ->
-    if(it.attribute("name").toLowerCase == 'buildarchitecture')
+    def name = it.attribute("name")
+    if(name && name.toLowerCase == 'buildarchitecture')
       if(it.attribute("value") != null)
         architecture = it.attribute("value")
       else
