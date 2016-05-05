@@ -6,7 +6,7 @@
         version="1.0.0">
 
     <name>Build Architecture</name>
-    <description>Experimental plugin to force arm builds</description>
+    <description>Experimental plugin to force one single arm or x86 build</description>
     <license>MIT</license>
     <repo>https://github.com/MBuchalik/build-architecture</repo>
    
@@ -17,6 +17,10 @@
 
     <!-- android -->
     <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+        	<preference name="buildArchitecture" default="arm" />
+        </config-file>
+        
         <framework src="platforms/android/architecture.gradle" custom="true" type="gradleReference"/>
     </platform>
 </plugin>
