@@ -8,7 +8,7 @@ Maybe you simply need to build for one architecture because of other reasons? Th
 # Usage
 Include this plugin in your config.xml:
 ```
-<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git" source="git" />
+<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
 ```
 
 By default, it will try to produce arm builds only. If you want to target x86, add the following preference:
@@ -16,4 +16,11 @@ By default, it will try to produce arm builds only. If you want to target x86, a
 <preference name="buildArchitecture" value="x86" />
 ```
 
-Please note that this plugin is experimental.
+### Using with Crosswalk
+If you use a version of crosswalk that is able to produce more than one .apk file, don't forget to add
+```
+<preference name="xwalkMultipleApk" value="true" />	
+```
+
+
+**Please note that this plugin is experimental.**
