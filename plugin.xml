@@ -17,6 +17,6 @@
 
     <!-- android -->
     <platform name="android">
-        <framework src="platforms/android/xwalk.gradle" custom="true" type="gradleReference"/>
+        <framework src="platforms/android/architecture.gradle" custom="true" type="gradleReference"/>
     </platform>
 </plugin>
