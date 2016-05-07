@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="build-architecture"
-        version="1.0.0">
+        id="cordova-build-architecture"
+        version="1.0.1">
 
     <name>Build Architecture</name>
     <description>Experimental plugin to force one single arm or x86 build</description>
     <license>MIT</license>
-    <repo>https://github.com/MBuchalik/build-architecture</repo>
+    <repo>https://github.com/MBuchalik/cordova-build-architecture</repo>
    
     <engines>
         <engine name="cordova-android" version=">=4"/>
