@@ -8,7 +8,7 @@ Maybe you simply need to build for one architecture because of other reasons? Th
 # Usage
 Include this plugin in your config.xml:
 ```
-<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.0" source="git" />
+<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
 ```
 
 By default, it will try to produce arm builds only. If you want to target x86, add the following preference:
