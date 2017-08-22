@@ -2,6 +2,7 @@
 This plugin allows you to build your application for arm (or x86) only.
 # Why?
 Plugins like cordova-plugin-crosswalk-webview (https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview) create two or more .apk files with one build. On Phonegap Build, you can only download one file which leads to problems if you want to get access to the other .apks.
+
 Also, the Crosswalk plugin sometimes creates a combined arm/x86 file on Phonegap Build even if you set the preference *xwalkMultipleApk* to *true*.
 
 Maybe you simply need to build for one architecture because of other reasons? This plugin might help you :-)
