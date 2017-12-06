@@ -1,6 +1,6 @@
 {
   "name": "cordova-build-architecture",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Experimental plugin to force one single arm or x86 build",
   "repository": {
     "type": "git",
