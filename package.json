@@ -9,8 +9,8 @@
   "keywords": [
     "cordova"
   ],
-  "author": "MBuchalik",
-  "license": "ISC",
+  "author": "Martin Buchalik",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MBuchalik/cordova-build-architecture/issues"
   },
