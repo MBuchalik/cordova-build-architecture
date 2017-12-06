@@ -1,0 +1,18 @@
+{
+  "name": "cordova-build-architecture",
+  "version": "1.0.2",
+  "description": "Experimental plugin to force one single arm or x86 build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBuchalik/cordova-build-architecture.git"
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "Martin Buchalik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MBuchalik/cordova-build-architecture/issues"
+  },
+  "homepage": "https://github.com/MBuchalik/cordova-build-architecture#readme"
+}
