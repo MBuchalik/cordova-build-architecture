@@ -1,5 +1,5 @@
 def getArchitecturePreference() {
-  def architecture = 'arm';
+  def architecture = 'arm'
   def file_content
 
   if (file('src/main/res/xml/config.xml').exists()) {
@@ -18,7 +18,7 @@ def getArchitecturePreference() {
         architecture = it.attribute('value')
   }
 
-  return architecture;
+  return architecture
 }
-ext.cdvBuildArch = getArchitecturePreference();
-ext.cdvBuildMultipleApks = true;
+ext.cdvBuildArch = getArchitecturePreference()
+ext.cdvBuildMultipleApks = true
