@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-build-architecture"
-        version="1.0.3">
+        version="1.0.4">
 
     <name>Build Architecture</name>
     <description>Experimental plugin to force one single arm or x86 build</description>
