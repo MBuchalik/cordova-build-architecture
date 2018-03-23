@@ -8,9 +8,11 @@ Also, the Crosswalk plugin sometimes creates a combined arm/x86 file on Phonegap
 Maybe you simply need to build for one architecture because of other reasons? This plugin might help you :-)
 
 # Usage
-Include this plugin in your config.xml:
-```xml
-<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.3" source="git" />
+
+Install 
+
+```
+cordova plugin add cordova-plugin-build-architecture
 ```
 
 By default, it will try to produce arm builds only. If you want to target x86, add the following preference:
