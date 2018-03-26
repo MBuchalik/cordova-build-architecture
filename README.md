@@ -18,6 +18,9 @@ By default, it will try to produce arm builds only. If you want to target x86, a
 <preference name="buildArchitecture" value="x86" />
 ```
 
+## npm
+If you want to use npm instead of fetching the plugin from git, please have a look at paulpatarinski's npm package: https://www.npmjs.com/package/cordova-plugin-build-architecture
+
 ## Advanced configuration
 Crosswalk also allows you to generate 64 bit builds. This is usually done via a command line parameter, but also seems to be possible using the following preference:
 ```xml
